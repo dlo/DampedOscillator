@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376715EF178DD4F3005C107F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376715EE178DD4F3005C107F /* UIKit.framework */; };
+		376715F1178DD4F3005C107F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376715F0178DD4F3005C107F /* Foundation.framework */; };
+		376715F3178DD4F3005C107F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376715F2178DD4F3005C107F /* CoreGraphics.framework */; };
+		376715F9178DD4F3005C107F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 376715F7178DD4F3005C107F /* InfoPlist.strings */; };
+		376715FB178DD4F3005C107F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 376715FA178DD4F3005C107F /* main.m */; };
+		376715FF178DD4F3005C107F /* LHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 376715FE178DD4F3005C107F /* LHAppDelegate.m */; };
+		37671601178DD4F3005C107F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37671600178DD4F3005C107F /* Default.png */; };
+		37671603178DD4F3005C107F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37671602178DD4F3005C107F /* Default@2x.png */; };
+		37671605178DD4F3005C107F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37671604178DD4F3005C107F /* Default-568h@2x.png */; };
+		37671608178DD4F3005C107F /* LHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37671607178DD4F3005C107F /* LHViewController.m */; };
+		3767160B178DD4F3005C107F /* LHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37671609178DD4F3005C107F /* LHViewController.xib */; };
+		37671613178DD512005C107F /* LHOscillatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37671612178DD512005C107F /* LHOscillatorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376715EB178DD4F3005C107F /* DampedOscillator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DampedOscillator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		376715EE178DD4F3005C107F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		376715F0178DD4F3005C107F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		376715F2178DD4F3005C107F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		376715F6178DD4F3005C107F /* DampedOscillator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DampedOscillator-Info.plist"; sourceTree = "<group>"; };
+		376715F8178DD4F3005C107F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		376715FA178DD4F3005C107F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		376715FC178DD4F3005C107F /* DampedOscillator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DampedOscillator-Prefix.pch"; sourceTree = "<group>"; };
+		376715FD178DD4F3005C107F /* LHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHAppDelegate.h; sourceTree = "<group>"; };
+		376715FE178DD4F3005C107F /* LHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHAppDelegate.m; sourceTree = "<group>"; };
+		37671600178DD4F3005C107F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		37671602178DD4F3005C107F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		37671604178DD4F3005C107F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		37671606178DD4F3005C107F /* LHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHViewController.h; sourceTree = "<group>"; };
+		37671607178DD4F3005C107F /* LHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHViewController.m; sourceTree = "<group>"; };
+		3767160A178DD4F3005C107F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LHViewController.xib; sourceTree = "<group>"; };
+		37671611178DD512005C107F /* LHOscillatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHOscillatorView.h; sourceTree = "<group>"; };
+		37671612178DD512005C107F /* LHOscillatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHOscillatorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		376715E8178DD4F3005C107F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376715EF178DD4F3005C107F /* UIKit.framework in Frameworks */,
+				376715F1178DD4F3005C107F /* Foundation.framework in Frameworks */,
+				376715F3178DD4F3005C107F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376715E2178DD4F3005C107F = {
+			isa = PBXGroup;
+			children = (
+				376715F4178DD4F3005C107F /* DampedOscillator */,
+				376715ED178DD4F3005C107F /* Frameworks */,
+				376715EC178DD4F3005C107F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		376715EC178DD4F3005C107F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				376715EB178DD4F3005C107F /* DampedOscillator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		376715ED178DD4F3005C107F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				376715EE178DD4F3005C107F /* UIKit.framework */,
+				376715F0178DD4F3005C107F /* Foundation.framework */,
+				376715F2178DD4F3005C107F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		376715F4178DD4F3005C107F /* DampedOscillator */ = {
+			isa = PBXGroup;
+			children = (
+				376715FD178DD4F3005C107F /* LHAppDelegate.h */,
+				376715FE178DD4F3005C107F /* LHAppDelegate.m */,
+				37671606178DD4F3005C107F /* LHViewController.h */,
+				37671607178DD4F3005C107F /* LHViewController.m */,
+				37671611178DD512005C107F /* LHOscillatorView.h */,
+				37671612178DD512005C107F /* LHOscillatorView.m */,
+				37671609178DD4F3005C107F /* LHViewController.xib */,
+				376715F5178DD4F3005C107F /* Supporting Files */,
+			);
+			path = DampedOscillator;
+			sourceTree = "<group>";
+		};
+		376715F5178DD4F3005C107F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				376715F6178DD4F3005C107F /* DampedOscillator-Info.plist */,
+				376715F7178DD4F3005C107F /* InfoPlist.strings */,
+				376715FA178DD4F3005C107F /* main.m */,
+				376715FC178DD4F3005C107F /* DampedOscillator-Prefix.pch */,
+				37671600178DD4F3005C107F /* Default.png */,
+				37671602178DD4F3005C107F /* Default@2x.png */,
+				37671604178DD4F3005C107F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		376715EA178DD4F3005C107F /* DampedOscillator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3767160E178DD4F3005C107F /* Build configuration list for PBXNativeTarget "DampedOscillator" */;
+			buildPhases = (
+				376715E7178DD4F3005C107F /* Sources */,
+				376715E8178DD4F3005C107F /* Frameworks */,
+				376715E9178DD4F3005C107F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DampedOscillator;
+			productName = DampedOscillator;
+			productReference = 376715EB178DD4F3005C107F /* DampedOscillator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		376715E3178DD4F3005C107F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lionheart Software LLC";
+			};
+			buildConfigurationList = 376715E6178DD4F3005C107F /* Build configuration list for PBXProject "DampedOscillator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 376715E2178DD4F3005C107F;
+			productRefGroup = 376715EC178DD4F3005C107F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				376715EA178DD4F3005C107F /* DampedOscillator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		376715E9178DD4F3005C107F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376715F9178DD4F3005C107F /* InfoPlist.strings in Resources */,
+				37671601178DD4F3005C107F /* Default.png in Resources */,
+				37671603178DD4F3005C107F /* Default@2x.png in Resources */,
+				37671605178DD4F3005C107F /* Default-568h@2x.png in Resources */,
+				3767160B178DD4F3005C107F /* LHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		376715E7178DD4F3005C107F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376715FB178DD4F3005C107F /* main.m in Sources */,
+				376715FF178DD4F3005C107F /* LHAppDelegate.m in Sources */,
+				37671608178DD4F3005C107F /* LHViewController.m in Sources */,
+				37671613178DD512005C107F /* LHOscillatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		376715F7178DD4F3005C107F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376715F8178DD4F3005C107F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37671609178DD4F3005C107F /* LHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3767160A178DD4F3005C107F /* en */,
+			);
+			name = LHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3767160C178DD4F3005C107F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3767160D178DD4F3005C107F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3767160F178DD4F3005C107F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DampedOscillator/DampedOscillator-Prefix.pch";
+				INFOPLIST_FILE = "DampedOscillator/DampedOscillator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37671610178DD4F3005C107F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DampedOscillator/DampedOscillator-Prefix.pch";
+				INFOPLIST_FILE = "DampedOscillator/DampedOscillator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		376715E6178DD4F3005C107F /* Build configuration list for PBXProject "DampedOscillator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3767160C178DD4F3005C107F /* Debug */,
+				3767160D178DD4F3005C107F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3767160E178DD4F3005C107F /* Build configuration list for PBXNativeTarget "DampedOscillator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3767160F178DD4F3005C107F /* Debug */,
+				37671610178DD4F3005C107F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 376715E3178DD4F3005C107F /* Project object */;
+}
